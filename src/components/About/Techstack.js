@@ -26,10 +26,9 @@ import {
   DiBootstrap,
 } from "react-icons/di";
 
-
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px"  }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiPython />
       </Col>
