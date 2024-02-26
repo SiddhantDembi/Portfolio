@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Data Cleaner"
+              description="This project provides a user-friendly interface for cleaning and processing tabular data files (CSV, XLS, XLSX). The following operations can be implemented: Replace Null Values, Remove Duplicate Rows, Remove Missing Values, Convert to Lowercase, Delete Columns, Sort Column and Capitalize Columns"
+              ghLink="https://github.com/SiddhantDembi/Data-Cleaning"
+              demoLink="https://datacleaner.streamlit.app/"
             />
           </Col>
 
