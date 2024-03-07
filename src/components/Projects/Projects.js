@@ -2,12 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import timestamp from "../../Assets/Projects/timestamp.png";
+import real_estate from "../../Assets/Projects/real.png";
+import movie from "../../Assets/Projects/movie.png";
+import farm from "../../Assets/Projects/farm.png";
+import career from "../../Assets/Projects/career.png";
+import analysis from "../../Assets/Projects/analysis.png";
+import dataclean from "../../Assets/Projects/Datacleaner.png";
+import insta from "../../Assets/Projects/insta.png";
+import intel from "../../Assets/Projects/intel.png";
 
 function Projects() {
   return (
@@ -23,7 +26,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={dataclean}
               isBlog={false}
               title="Data Cleaner"
               description="This project provides a user-friendly interface for cleaning and processing tabular data files (CSV, XLS, XLSX). The following operations can be implemented: Replace Null Values, Remove Duplicate Rows, Remove Missing Values, Convert to Lowercase, Delete Columns, Sort Column and Capitalize Columns"
@@ -32,61 +35,95 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={timestamp}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Timestamp App"
+              description="This Python project is a simple Date and Time Logger application designed to assist users in tracking timestamps conveniently. The application allows users to log timestamps, view logs, and delete logs. The application is implemented using the Streamlit and MySQL."
+              ghLink="https://github.com/SiddhantDembi/Time-Stamp-Project"
+              demoLink="https://timestamp.streamlit.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={analysis}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Timestamp Analysis App"
+              description="The Timestamp Analysis Application is a Streamlit-based web application designed to analyze realtime data fetched from a MySQL database. This data records the number of times push-ups were done each day. The application provides insights such as monthly counts, average monthly counts, dates with the highest count, frequency with user input, days with frequency, and hourly frequency."
+              ghLink="https://github.com/SiddhantDembi/Date-Time-Analysis"
+              demoLink="https://timestampanalysis.streamlit.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={intel}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Entelligentsia"
+              description="
+              This backend project was developed during an internship at Entelligentsia. It was implemented using Python, AWS Lambda, AWS DynamoDB, and the Serverless Framework. The project encompasses APIs for functionalities such as login, registration, retrieving events, and posting events."
+              ghLink="https://github.com/SiddhantDembi/Entelligentsia"
+              // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={real_estate}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Real Estate Portal"
+              description="This project is a real estate portal developed using Java and MySQL. The portal allows users to browse available properties for sale or rent. Users can apply filters such as location, price range, and sale/rent status to refine their search. Each property listing includes detailed information. Once purchased, properties are marked as unavailable for sale."
+              ghLink="https://github.com/SiddhantDembi/Real-Estate-Portal"
+              // demoLink=""     
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={movie}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Movie Ticket Booking System"
+              description="This is a simple cinema booking system implemented in Python using Tkinter for the graphical user interface (GUI) and MySQL for the database. Users can register, login, select movies, book seats, and make payments through this system."
+              ghLink="https://github.com/SiddhantDembi/Movie-Ticket-Booking-System"
+              // demoLink=""     
             />
-          </Col> */}
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={insta}
+              isBlog={false}
+              title="Instagram Unfollowers"
+              description="This project is a simple web application built to help Instagram users identify accounts they follow but who don't follow them back. Users can input their Instagram credentials, and the application will retrieve the list of accounts they follow but who don't follow them back. The application also provides links to visit the profiles of these accounts directly from the interface."
+              ghLink="https://github.com/SiddhantDembi/Insta-Unfollowers"
+              demoLink="https://unfollowers.streamlit.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={farm}
+              isBlog={false}
+              title="Farm Easy"
+              description="An E commerce platform where users can purchase organic products directly from the farmers."
+              ghLink="https://github.com/SiddhantDembi/SFIT-Hackathon"
+              // demoLink=""     
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={career}
+              isBlog={false}
+              title="Career Recomendation System"
+              description="A career recommendation system that suggests career paths based on the user's interests and skills. The system uses a decision tree algorithm to make recommendations."
+              ghLink="https://github.com/SiddhantDembi/Codestorm_priv"
+              // demoLink=""     
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

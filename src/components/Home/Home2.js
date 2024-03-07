@@ -19,8 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I am a third-year IT engineering student at the University of Mumbai with a real passion for tech.
               <br />
               <br />I am fluent in 
               <i>
@@ -30,7 +29,7 @@ function Home2() {
               <br />
               My field of Interest's are  &nbsp;
               <i>
-                <b className="purple">Backend Development and Data Analytics </b> and
+                <b className="purple">Backend Development, Data Analytics </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Machine Learning.
