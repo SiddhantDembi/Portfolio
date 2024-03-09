@@ -119,8 +119,8 @@ function Projects() {
               isBlog={false}
               title="Career Recomendation System"
               description="A career recommendation system that suggests career paths based on the user's interests and skills. The system uses a decision tree algorithm to make recommendations."
-              ghLink="https://github.com/SiddhantDembi/Codestorm_priv"
-              // demoLink=""     
+              ghLink="https://github.com/SiddhantDembi/Career-Recomendation-System"
+              demoLink="https://career-wise-recomend.vercel.app/"     
             />
           </Col>
 
