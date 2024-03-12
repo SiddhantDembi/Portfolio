@@ -71,6 +71,28 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={career}
+              isBlog={false}
+              title="Career Recomendation System"
+              description="A career recommendation system that suggests career paths based on the user's interests and skills. The system uses a decision tree algorithm to make recommendations."
+              ghLink="https://github.com/SiddhantDembi/Career-Recomendation-System"
+              demoLink="https://career-wise-recomend.vercel.app/"     
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={insta}
+              isBlog={false}
+              title="Instagram Unfollowers"
+              description="This project is a simple web application built to help Instagram users identify accounts they follow but who don't follow them back. Users can input their Instagram credentials, and the application will retrieve the list of accounts they follow but who don't follow them back. The application also provides links to visit the profiles of these accounts directly from the interface."
+              ghLink="https://github.com/SiddhantDembi/Insta-Unfollowers"
+              demoLink="https://unfollowers.streamlit.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={real_estate}
               isBlog={false}
               title="Real Estate Portal"
@@ -91,38 +113,20 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={insta}
-              isBlog={false}
-              title="Instagram Unfollowers"
-              description="This project is a simple web application built to help Instagram users identify accounts they follow but who don't follow them back. Users can input their Instagram credentials, and the application will retrieve the list of accounts they follow but who don't follow them back. The application also provides links to visit the profiles of these accounts directly from the interface."
-              ghLink="https://github.com/SiddhantDembi/Insta-Unfollowers"
-              demoLink="https://unfollowers.streamlit.app/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={farm}
               isBlog={false}
               title="Farm Easy"
-              description="An E commerce platform where users can purchase organic products directly from the farmers."
+              description="An E commerce platform where users can purchase organic products directly from the farmers. Built using Jinja templates, Flask, and MySQL."
               ghLink="https://github.com/SiddhantDembi/SFIT-Hackathon"
               // demoLink=""     
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={career}
-              isBlog={false}
-              title="Career Recomendation System"
-              description="A career recommendation system that suggests career paths based on the user's interests and skills. The system uses a decision tree algorithm to make recommendations."
-              ghLink="https://github.com/SiddhantDembi/Career-Recomendation-System"
-              demoLink="https://career-wise-recomend.vercel.app/"     
-            />
-          </Col>
+          
 
         </Row>
       </Container>
