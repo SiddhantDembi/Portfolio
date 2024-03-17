@@ -11,6 +11,7 @@ import analysis from "../../Assets/Projects/analysis.png";
 import dataclean from "../../Assets/Projects/Datacleaner.png";
 import insta from "../../Assets/Projects/insta.png";
 import intel from "../../Assets/Projects/intel.png";
+import atm from "../../Assets/Projects/atm.png";
 
 function Projects() {
   return (
@@ -120,6 +121,17 @@ function Projects() {
               title="Farm Easy"
               description="An E commerce platform where users can purchase organic products directly from the farmers. Built using Jinja templates, Flask, and MySQL."
               ghLink="https://github.com/SiddhantDembi/SFIT-Hackathon"
+              // demoLink=""     
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={atm}
+              isBlog={false}
+              title="Atm"
+              description="This command line project simulates a simple ATM system where users can login, register, check balance, withdraw, deposit, and logout."
+              ghLink="https://github.com/SiddhantDembi/Atm"
               // demoLink=""     
             />
           </Col>
