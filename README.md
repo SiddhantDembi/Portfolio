@@ -4,7 +4,7 @@ Welcome to my portfolio GitHub repository! This repository showcases my projects
 
 ## About Me
 
-I am a third-year IT engineering student at the University of Mumbai with a real passion for tech.
+I am a final-year IT engineering student at the University of Mumbai with a real passion for tech.
 I am fluent in Python, Flask and AWS
 My field of Interest's are  Backend Development, Data Analytics and also in areas related to Machine Learning.
 

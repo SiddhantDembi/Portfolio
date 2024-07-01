@@ -19,20 +19,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a third-year IT engineering student at the University of Mumbai with a real passion for tech.
+            I am a final-year IT engineering student at the University of Mumbai with a real passion for tech.
               <br />
               <br />I am fluent in 
               <i>
-                <b className="purple"> Python, Flask and AWS </b>
+                <b className="purple"> React, Python, and AWS </b>
               </i>
               <br />
               <br />
               My field of Interest's are  &nbsp;
               <i>
-                <b className="purple">Backend Development, Data Analytics </b> and
+                <b className="purple">Web Development, Data Analytics </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Machine Learning.
+                  Networking.
                 </b>
               </i>
               <br />

@@ -18,7 +18,9 @@ import {
   SiAmazondynamodb,
   SiBootstrap,
   SiServerless,
-  
+  SiTypescript,
+  SiTailwindcss,
+  SiNextdotjs
 } from "react-icons/si";
 
 import {
@@ -45,6 +47,9 @@ function Techstack() {
         <SiJavascript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -54,10 +59,19 @@ function Techstack() {
         <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiServerless />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiStreamlit />
@@ -72,9 +86,13 @@ function Techstack() {
         <SiAmazondynamodb />
       </Col>
       
-      <Col xs={4} md={2} className="tech-icons">
-        <SiServerless />
-      </Col>
+      
+
+      
+
+      
+
+      
     </Row>
   );
 }

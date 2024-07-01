@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import timestamp from "../../Assets/Projects/timestamp.png";
+import car from "../../Assets/Projects/car.png";
 import real_estate from "../../Assets/Projects/real.png";
 import movie from "../../Assets/Projects/movie.png";
 import farm from "../../Assets/Projects/farm.png";
 import career from "../../Assets/Projects/career.png";
-import analysis from "../../Assets/Projects/analysis.png";
 import dataclean from "../../Assets/Projects/Datacleaner.png";
 import insta from "../../Assets/Projects/insta.png";
 import intel from "../../Assets/Projects/intel.png";
@@ -25,36 +24,26 @@ function Projects() {
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={car}
+              isBlog={false}
+              title="3D Car Configurator"
+              description="This project is a Nextjs and Threejs based car customization application that allows users to customize various aspects of a car, such as body color, seat color, interior color, glass type, steering wheel color, tire color, backlight color, and tailwing color. All the changes will be rendered live on the 3D model."
+              ghLink="https://github.com/SiddhantDembi/3d-car-configurator"
+              demoLink="https://3d-car-configurator-beta.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dataclean}
               isBlog={false}
-              title="Data Cleaner"
-              description="This project provides a user-friendly interface for cleaning and processing tabular data files (CSV, XLS, XLSX). The following operations can be implemented: Replace Null Values, Remove Duplicate Rows, Remove Missing Values, Convert to Lowercase, Delete Columns, Sort Column and Capitalize Columns"
-              ghLink="https://github.com/SiddhantDembi/Data-Cleaning"
-              demoLink="https://datacleaner.streamlit.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={timestamp}
-              isBlog={false}
-              title="Timestamp App"
-              description="This Python project is a simple Date and Time Logger application designed to assist users in tracking timestamps conveniently. The application allows users to log timestamps, view logs, and delete logs. The application is implemented using the Streamlit and MySQL."
-              ghLink="https://github.com/SiddhantDembi/Time-Stamp-Project"
-              demoLink="https://timestamp.streamlit.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={analysis}
-              isBlog={false}
-              title="Timestamp Analysis App"
-              description="The Timestamp Analysis Application is a Streamlit-based web application designed to analyze realtime data fetched from a MySQL database. This data records the number of times push-ups were done each day. The application provides insights such as monthly counts, average monthly counts, dates with the highest count, frequency with user input, days with frequency, and hourly frequency."
-              ghLink="https://github.com/SiddhantDembi/Date-Time-Analysis"
-              demoLink="https://timestampanalysis.streamlit.app/"              
+              title="Streamlit Projects"
+              description="This repository contains Streamlit applications for data cleaning, timestamp management and data analysis. User can upload a CSV file, clean the data, manage timestamps, and view analysis using these applications. The applications are built using Python, Streamlit, and Pandas."
+              ghLink="https://github.com/SiddhantDembi/streamlit-projects"
+              demoLink="https://webproject.streamlit.app/"
             />
           </Col>
 

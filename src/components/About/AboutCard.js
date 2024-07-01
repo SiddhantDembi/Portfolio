@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             Currently pursuing my Bachelors in Engineering in Information Technology from Thadomal Shahani Engineering College.
             <br />
-            Third year student at the University of Mumbai.
+            Final year student at the University of Mumbai.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

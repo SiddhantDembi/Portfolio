@@ -15,7 +15,10 @@ import {
   SiAdobeaftereffects,
   SiAdobeillustrator,
   SiAdobelightroom,
-  SiAdobephotoshop
+  SiAdobephotoshop,
+  SiLinux,
+  SiKalilinux,
+  SiBlender
 } from "react-icons/si";
 
 function Toolstack() {
@@ -31,7 +34,7 @@ function Toolstack() {
         <SiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiUbuntu />
+        <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
@@ -40,7 +43,7 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
+        <SiKalilinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftexcel />
@@ -49,7 +52,7 @@ function Toolstack() {
         <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
+        <SiBlender />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobepremierepro />
