@@ -32,7 +32,7 @@ function Projects() {
               title="3D Car Configurator"
               description="This project is a Nextjs and Threejs based car customization application that allows users to customize various aspects of a car, such as body color, seat color, interior color, glass type, steering wheel color, tire color, backlight color, and tailwing color. All the changes will be rendered live on the 3D model."
               ghLink="https://github.com/SiddhantDembi/3d-car-configurator"
-              demoLink="https://3d-car-configurator-beta.vercel.app/"
+              demoLink="https://car.dembi.xyz"
             />
           </Col>
 
@@ -43,7 +43,7 @@ function Projects() {
               title="Streamlit Projects"
               description="This repository contains Streamlit applications for data cleaning, timestamp management and data analysis. User can upload a CSV file, clean the data, manage timestamps, and view analysis using these applications. The applications are built using Python, Streamlit, and Pandas."
               ghLink="https://github.com/SiddhantDembi/streamlit-projects"
-              demoLink="https://webproject.streamlit.app/"
+              demoLink="https://streamlit.dembi.xyz"
             />
           </Col>
 
@@ -66,7 +66,7 @@ function Projects() {
               title="Career Recomendation System"
               description="A career recommendation system that suggests career paths based on the user's interests and skills. The system uses a decision tree algorithm to make recommendations."
               ghLink="https://github.com/SiddhantDembi/Career-Recomendation-System"
-              demoLink="https://career-wise-recomend.vercel.app/"     
+              demoLink="https://career.dembi.xyz"     
             />
           </Col>
 
@@ -76,8 +76,8 @@ function Projects() {
               isBlog={false}
               title="Instagram Unfollowers"
               description="This project is a simple web application built to help Instagram users identify accounts they follow but who don't follow them back. Users can input their Instagram credentials, and the application will retrieve the list of accounts they follow but who don't follow them back. The application also provides links to visit the profiles of these accounts directly from the interface."
-              ghLink="https://github.com/SiddhantDembi/Insta-Unfollowers"
-              demoLink="https://unfollowers.streamlit.app/"
+              ghLink="https://github.com/SiddhantDembi/Insta-Analyzer"
+              demoLink="https://insta.dembi.xyz"
             />
           </Col>
 
