@@ -1,13 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { FaAws } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
+import { RiFileExcel2Line } from "react-icons/ri";
 import {
-  SiVisualstudiocode,
+  // SiVisualstudiocode,
   SiPostman,
   SiAwslambda,
-  SiAmazonaws,
+  // SiAmazonaws,
   SiUbuntu,
   SiGit,
-  SiMicrosoftexcel,
+  // SiMicrosoftexcel,
   SiTableau,
   SiDocker,
   SiPowerbi,
@@ -25,7 +28,7 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws />
+      <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAwslambda />
@@ -40,13 +43,13 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+      <VscVscode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKalilinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel />
+      <RiFileExcel2Line />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
