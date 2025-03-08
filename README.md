@@ -10,7 +10,7 @@ My field of Interest's are  Backend Development, Data Analytics and also in area
 
 ## Live Deployment
 
-- URL: https://dembi.xyz/
+- URL: https://profile.dembi.xyz/
 
 ## Contact Me
 
